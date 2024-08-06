@@ -7,7 +7,6 @@
     <list default="true" id="38352d04-a419-499a-9484-000b8cc06061" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mystypix"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mystypix/personal-web.git",
+    "accountId": "d132de56-460a-4835-ab44-85acaed26ca8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,7 +62,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -67,7 +78,9 @@
       <workItem from="1718302312078" duration="5101000" />
       <workItem from="1718350350293" duration="31000" />
       <workItem from="1718351880368" duration="7931000" />
-      <workItem from="1718484234196" duration="685000" />
+      <workItem from="1718484234196" duration="1350000" />
+      <workItem from="1718605488371" duration="230000" />
+      <workItem from="1722948029171" duration="8000" />
     </task>
     <servers />
   </component>
