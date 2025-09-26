@@ -38,14 +38,17 @@ main {
 
 h1 {
     display: inline-block;
-    border-bottom: 1px dashed #fff;
     font-size: 40px;
     line-height: 60px;
-    transition: border-bottom-color 0.3s ease-in-out;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: dashed;
+    text-underline-offset: 19px;
+    transition: text-decoration-color 0.3s ease-in-out;
 }
 
 h1:hover {
-    border-bottom: 1px solid transparent;
+    text-decoration-color: transparent;
 }
 
 h1:hover + .hello-there {
@@ -94,14 +97,16 @@ a {
     display: inline-block;
     color: #fff;
     text-shadow: 0 0 0 transparent;
-    transition: text-shadow 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
-    border-bottom: 1px dashed #fff;
-    text-decoration: none;
+    transition: text-decoration-color 0.3s ease-in-out;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: dashed;
+    text-underline-offset: 6px;
 }
 
 a:hover {
     text-shadow: 0 0 8px var(--glow-color, #7c3aed);
-    border-bottom: 1px solid transparent;
+    text-decoration-color: transparent;
 }
 
 svg {
