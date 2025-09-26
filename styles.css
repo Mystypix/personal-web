@@ -42,14 +42,14 @@ h1 {
     font-size: 40px;
     line-height: 60px;
     transition: border-bottom-color 0.3s ease-in-out;
+}
 
-    &:hover {
-        border-bottom: 1px solid transparent;
+h1:hover {
+    border-bottom: 1px solid transparent;
+}
 
-        & + .hello-there {
-            opacity: 1;
-        }
-    }
+h1:hover + .hello-there {
+    opacity: 1;
 }
 
 .hello-there {
@@ -60,6 +60,7 @@ h1 {
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
     max-width: calc(100vw - 40px);
+    z-index: 2;
 }
 
 h2 {
@@ -82,14 +83,53 @@ p {
 
 .link {
     display: block;
+    border-bottom: none;
+}
+
+.link:hover {
+    border-bottom: none;
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-shadow: 0 0 0 transparent;
+    transition: text-shadow 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    border-bottom: 1px dashed #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 8px var(--glow-color, #7c3aed);
+    border-bottom: 1px solid transparent;
 }
 
 svg {
     width: 60px;
     fill: #fff;
     transition: fill 0.3s ease-in-out;
+}
 
-    &:hover {
-        fill: #9E5DF3;
-    }
+svg:hover {
+    fill: #9E5DF3;
+}
+
+.glow-capture {
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 0 8px var(--glow-color, #7c3aed);
+}
+
+.glow-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--glow-color, #7c3aed);
+    border-radius: 4px;
+    opacity: 0.2;
+    filter: blur(12px);
+    z-index: -1;
+    pointer-events: none;
 }
